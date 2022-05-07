@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Change colors </title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1 class="text">It's Too Dark!!</h1>
+
+<div class="container">
+	<div class="colorpicker">
+		<div class="color">
+			<label id="red">
+					R : <span class="value">0</span>
+			</label>
+			<input type="range"
+					 style="--slider-thumb-color: #fff;"
+					 id="redSlider" class="slider"
+					 min="0" max="255"
+					 step="1" value="0" />
+		</div>
+		<div class="color">
+			<label id="green">
+				G : <span class="value">0</span>
+			</label>
+			<input type="range"
+					 style="--slider-thumb-color: #fff;"
+					 id="greenSlider" class="slider"
+					 min="0" max="255"
+					 step="1" value="0" />
+		</div>
+		<div class="color">
+			<label id="blue">
+				B : <span class="value">0</span>
+			</label>
+			<input type="range"
+					 style="--slider-thumb-color: #fff;"
+					 id="blueSlider" class="slider"
+					 min="0" max="255"
+					 step="1" value="0" />
+		</div>
+	</div>
+</div>
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/brain/0.6.3/brain.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
